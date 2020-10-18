@@ -46,13 +46,4 @@ function draw() {
 
   stroke(255);
   point(0, 0);
-
-   push();
-   fill(255);
-   noStroke();
-   rotate(90);
-   textSize(30);
-   textAlign(CENTER);
-   text(hr + ':' + mn + ':' + sc, 10, 190);
-   pop();
 }
